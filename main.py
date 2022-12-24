@@ -2,7 +2,6 @@ import sys
 print("* Python Interpreter\n# Type 'Info' to get info,'Exit' to exit.")
 print(">",end=" ")
 n=(sys.stdin.readline())
-print(n,end="")
 while n!="Exit\n":
 	n=n+"#"
 	for i in range(len(n)):
@@ -16,20 +15,17 @@ while n!="Exit\n":
 			break
 	n=n+"\n"
 	if n=="Info\n":
-		print("# A simple python interpreter using EXEC.\n(So it is not very safe)\n# Enter code behind '>'.\n")
+		print("# A simple python interpreter using EXEC.\n# (So it is not very safe)\n# Enter code behind '>'.\n")
 		print(">",end=" ")
 		n=(sys.stdin.readline())
-		print(n,end="")
 	elif len(n)>1 and n[-2]==":":
 		print("# Use a non-block to stop entering.")
 		print(">",end=" ")
 		m=(sys.stdin.readline())
-		print(m,end="")
 		while m[0]=="\t" or (len(m)>3 and m[0:4]=="    "):
 			n=n+m
 			print(">",end=" ")
 			m=(sys.stdin.readline())
-			print(m,end="")
 		print("$",end=" ")
 		exec(n)
 		n=m
@@ -38,5 +34,4 @@ while n!="Exit\n":
 		exec(n)
 		print(">",end=" ")
 		n=(sys.stdin.readline())
-		print(n,end="")
 print("# Thanks for using!")
