@@ -14,6 +14,8 @@ this interpreter is not very safe [detail: <https://docs.python.org/3/library/fu
 ```#``` : system message  
 ```$``` : output  
 ```(nothing)``` : input  
+### Principle
+$\color{purple}{sys.stdin.readline()}$
 ### Warnings  
 1.Please input EOL at last!(behind "Exit")  
 2.If there is something error,note that might be your code's problem!  
