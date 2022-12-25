@@ -14,7 +14,7 @@ this compiler is not very safe [detail: <https://docs.python.org/3/library/funct
 ```#``` : system message  
 ```$``` : output  
 ```(nothing)``` : input  
-###Warnings  
+### Warnings  
 1.Please input EOL at last!(behind "Exit")  
 2.If there is something error,note that might be your code's problem!  
 3.Don't input rare statements!(That means just simple code)
