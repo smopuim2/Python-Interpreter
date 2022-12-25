@@ -14,7 +14,8 @@ this interpreter is not very safe [detail: <https://docs.python.org/3/library/fu
 ```#``` : system message  
 ```$``` : output  
 ```(nothing)``` : input  
-### Warnings($\color{red}{must look}$)  
+### Warnings
+($\color{red}{must look}$)  
 1.It just interprets Python statement,not expressions!
 2.Please input EOL at last!(behind "Exit")  
 3.If there is something error,note that might be your code's problem!  
